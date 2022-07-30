@@ -1,6 +1,6 @@
 ## About Application
 
-https://github.com/gyanAsh/nextjs-todoapp.git
+Full-stack CRUD App - Using next.js + Firebase (Auth&Firestore) + TailwindCSS
 
 ## Deploy on Vercel
 
