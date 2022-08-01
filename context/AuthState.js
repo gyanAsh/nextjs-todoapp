@@ -32,11 +32,14 @@ const AuthState = ({ children }) => {
 
     const logout = () => signOut(auth);
 
-
-    value = { currentUser, loading, signUp, signIn, logout };
-
     return (
-        <AuthContext.Provider value={value} >
+        <AuthContext.Provider value={{
+            currentUser,
+            loading,
+            signUp,
+            signIn,  
+            logout
+        }} >
             {children}
         </AuthContext.Provider>
     )
