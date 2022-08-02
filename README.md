@@ -2,8 +2,8 @@
 
 Full-stack CRUD App - Using next.js + Firebase (Auth&Firestore) + TailwindCSS
 
-## Deploy on Vercel
+## How to use Application
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Connect application to your firebase : https://firebase.google.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enter you credentials and use this application to keep your notes.
