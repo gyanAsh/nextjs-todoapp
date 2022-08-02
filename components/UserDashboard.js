@@ -15,8 +15,6 @@ import fetchTodo from '../hooks/fetchTodo'
 
     const { todos, setTodos, loading } = fetchTodo()
 
-    console.log(todos)
-
      const handleAddTodo = async (e) => {
          e.preventDefault();
         if (!todo) { return }
@@ -53,7 +51,6 @@ import fetchTodo from '../hooks/fetchTodo'
     const handleAddEdit=(todoKey)=> {
         return () => {
             console.log(todos[todoKey])
-            console.log('bannan')
             setEdit(todoKey)
             setEdittedValue(todos[todoKey])
         }
